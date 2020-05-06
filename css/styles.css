@@ -1,6 +1,7 @@
 body {
   margin: 0;
   text-align: center;
+
   font-family: "Merriweather", serif;
   color: #40514e;
 }
@@ -18,6 +19,7 @@ h2 {
   font-weight: normal;
   font-size: 2.5rem;
   color: #66bfbf;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -27,19 +29,26 @@ h3 {
 
 a {
   color: #11999e;
-  margin: 0 20px 0 20px;
+  margin: 10px 20px 10px 20px;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  font-weight: bold;
+}
+
+a:hover {
+  color: #eaf6f6;
 }
 
 hr {
-  border-style: none;
-  border-top-style: dotted;
+  border: dotted;
+  border-bottom: none;
   border-width: 10px;
   border-color: #eaf6f6;
   width: 5%;
-  margin-bottom: 100px;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
 }
 
 .top-container {
@@ -49,51 +58,50 @@ hr {
 }
 
 .middle-container {
+  margin: 100px 0;
 }
 
 .bottom-container {
   background-color: #66bfbf;
-  padding: 50px;
-  color: #eaf6f6;
+  padding: 50px 0 20px;
 }
 
 .copyright-text {
-  margin-top: 50px;
+  padding: 20px 0;
+  color: #eaf6f6;
+  font-size: 0.75rem;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 600px;
-  bottom: 300px;
-}
-
-.profile {
-  width: 25%;
-  margin: 100px auto 100px auto;
-  line-height: 2;
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
-.contact-me {
-  width: 25%;
-  margin: 100px auto 100px auto;
-  line-height: 2;
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
 }
 
 .pro {
   text-decoration: underline;
 }
 
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
 .top-cloud {
   position: absolute;
-  right: 600px;
-  top: 50px;
+  right: 400px;
+  top: 40px;
 }
 
 .profile-img {
@@ -115,16 +123,16 @@ hr {
 }
 
 .btn {
-  background: #66cfcf;
-  background-image: -webkit-linear-gradient(top, #66cfcf, #11999e);
-  background-image: -moz-linear-gradient(top, #66cfcf, #11999e);
-  background-image: -ms-linear-gradient(top, #66cfcf, #11999e);
-  background-image: -o-linear-gradient(top, #66cfcf, #11999e);
-  background-image: linear-gradient(to bottom, #66cfcf, #11999e);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  color: #eaf6f6;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -132,11 +140,14 @@ hr {
   display: inline-block;
   cursor: pointer;
   text-align: center;
-  margin-top: 50px;
 }
 
-/*
-font-family: 'Merriweather', serif;
-font-family: 'Sacramento', cursive;
-font-family: 'Montserrat', sans-serif;
-*/
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
