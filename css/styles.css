@@ -34,9 +34,25 @@ body {
   color: #F0F5F9;
 }
 
+.search-bar {
+  padding: 8px 10px;
+}
+
+.search-button {
+  color:#F0F5F9;
+  outline:#F0F5F9
+}
+
+.search-button:hover {
+  color:#1E2022;
+  
+  background-color: #F0F5F9;
+}
+
 /* Home Section */
 #Home {
   background-color: #52616B;
+  color: #F0F5F9;
 }
 
 .title-text {
@@ -45,25 +61,75 @@ body {
   font-weight: 700;
   text-align: left;
   padding: 20px 75px 0px;
-  color: #F0F5F9;
+  /* color: #F0F5F9; */
   margin: 0;
   line-height: 2.5;
 }
 
-/* About Section */
-#About {
-  background-color: #52616B;
-}
-
-.about-subtitle {
-  color: #F0F5F9;
+.subtitle-text {
+  /* color: #F0F5F9; */
   font-weight: 400;
   font-size: 1.5rem;
-  padding: 0px 75px 20px;
+  padding: 20px 75px 0px;
   margin: 0;
   line-height: 1.5;
 }
 
 .about-me-text {
+  padding: 20px 0 20px 75px;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.subheading-text {
   padding: 20px 75px 20px;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1rem;
+
+}
+
+.profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* border-radius: 100%; */
+  width: 60%;
+  height: auto;
+  padding: 20px 20px 20px;
+}
+
+/* Blog section */
+#Blog {
+  background-color: #C9D6DF;
+  color: #52616B;  
+}
+
+/* Carousel */
+.carousel {
+  background-color: #C9D6DF;
+  padding: 20px 75px 20px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #1E2022;
+  color: #F0F5F9;
+  text-align: center;
+  padding: 20px 75px 20px;
+}
+
+.social-media-links {
+  color: #F0F5F9;
+  padding: 20px 10px 20px;
+}
+
+.footnote-text {
+  padding: 20px 75px 20px;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.75rem;
 }
