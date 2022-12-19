@@ -19,22 +19,20 @@ body {
   font-family: "Ubuntu";
   color: #F0F5F9;
   font-size: 2rem;
-  /* font-weight: 900; */
   padding-left: 75px;
 }
 
 .nav-item {
-  color: #F0F5F9;
   font-size: 1rem;
   padding: 8px 10px;
   text-transform: uppercase;
 }
 
-.nav-link { 
+.nav-link:hover { 
   color: #F0F5F9;
-}
+} 
 
-.search-bar {
+/* .search-bar {
   padding: 8px 10px;
 }
 
@@ -47,7 +45,7 @@ body {
   color:#1E2022;
   
   background-color: #F0F5F9;
-}
+} */
 
 /* Home Section */
 #Home {
@@ -70,7 +68,7 @@ body {
   /* color: #F0F5F9; */
   font-weight: 400;
   font-size: 1.5rem;
-  padding: 20px 75px 0px;
+  padding: 20px 75px 20px;
   margin: 0;
   line-height: 1.5;
 }
@@ -105,10 +103,12 @@ body {
 #Blog {
   background-color: #C9D6DF;
   color: #52616B;  
+  padding: 20px 75px 75px;
+  margin: 0;
 }
 
-/* Carousel */
-.carousel {
+/* Card */
+.card {
   background-color: #C9D6DF;
   padding: 20px 75px 20px;
 }
